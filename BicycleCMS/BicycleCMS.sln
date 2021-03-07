@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleCMS", "BicycleCMS\BicycleCMS.csproj", "{E269A2F7-6B0D-4111-ABB0-663FF3142671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E269A2F7-6B0D-4111-ABB0-663FF3142671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E269A2F7-6B0D-4111-ABB0-663FF3142671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E269A2F7-6B0D-4111-ABB0-663FF3142671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E269A2F7-6B0D-4111-ABB0-663FF3142671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0D8B623-0F7D-4669-97F5-130AB122A417}
+	EndGlobalSection
+EndGlobal
