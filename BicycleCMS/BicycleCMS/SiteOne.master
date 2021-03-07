@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteOne.master.cs" Inherits="BicycleCMS.SiteOne" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title>Bicycle CMS</title>
+        
+        
+    <link href="~/Template.css" rel="stylesheet" type="text/css" />
+     <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="PageContainer">
+        <div class="Header">
+            <asp:Menu ID="Topnav" runat="server">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Bicycles"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Editor.aspx" Text="Editor"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+        <div class="Leftnav">
+        </div>
+        <div class="Maincontent">
+            <asp:ContentPlaceHolder id="contentPlaceHolder" runat="server" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</body>
+</html>

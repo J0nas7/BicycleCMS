@@ -11,10 +11,14 @@
 namespace BicycleCMS {
 	
 	
-	public partial class Default {
+	public partial class SiteOne {
 		
-		protected System.Web.UI.WebControls.Content Content1;
+		protected System.Web.UI.WebControls.ContentPlaceHolder head;
 		
-		protected System.Web.UI.WebControls.Content Content2;
+		protected System.Web.UI.WebControls.Menu Topnav;
+		
+		protected System.Web.UI.WebControls.ContentPlaceHolder contentPlaceHolder;
+		
+		protected System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
 	}
 }
