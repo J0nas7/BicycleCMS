@@ -87,7 +87,8 @@
     <Content Include="SiteOne.master" />
     <Content Include="Template.css" />
     <Content Include="packages.config" />
-    <Content Include="NormalBikes.aspx" />
+    <Content Include="CategoryOne.aspx" />
+    <Content Include="CategoryTwo.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -107,16 +108,18 @@
     </Compile>
     <Compile Include="DatabaseController.cs" />
     <Compile Include="DBpwd.cs" />
-    <Compile Include="NormalBikes.aspx.cs">
-      <DependentUpon>NormalBikes.aspx</DependentUpon>
+    <Compile Include="CategoryOne.aspx.cs">
+      <DependentUpon>CategoryOne.aspx</DependentUpon>
     </Compile>
-    <Compile Include="NormalBikes.aspx.designer.cs">
-      <DependentUpon>NormalBikes.aspx</DependentUpon>
+    <Compile Include="CategoryOne.aspx.designer.cs">
+      <DependentUpon>CategoryOne.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Themes\" />
     <Folder Include="App_Themes\ThemeDefault\" />
+    <Folder Include="App_Themes\ThemeCategoryOne\" />
+    <Folder Include="App_Themes\ThemeCategoryTwo\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

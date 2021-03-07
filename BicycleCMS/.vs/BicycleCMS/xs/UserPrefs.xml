@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{E269A2F7-6B0D-4111-ABB0-663FF3142671}|">
   <MonoDevelop.Ide.ItemProperties.BicycleCMS PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BicycleCMS/NormalBikes.aspx.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BicycleCMS/CategoryTwo.aspx">
     <Files>
-      <File FileName="BicycleCMS/Default.aspx" Line="8" Column="1" />
-      <File FileName="BicycleCMS/Default.aspx.cs" Line="12" Column="15" />
-      <File FileName="BicycleCMS/SiteOne.master" Line="15" Column="7" />
-      <File FileName="BicycleCMS/SiteOne.master.cs" Line="51" Column="20" />
-      <File FileName="BicycleCMS/Template.css" Line="59" Column="20" />
-      <File FileName="BicycleCMS/NormalBikes.aspx" Line="1" Column="1" />
-      <File FileName="BicycleCMS/NormalBikes.aspx.cs" Line="1" Column="1" />
-      <File FileName="../../MasterAndSkin/Site1.Master" Line="22" Column="10" NotebookId="1" />
+      <File FileName="BicycleCMS/Template.css" Line="31" Column="1" />
+      <File FileName="BicycleCMS/CategoryOne.aspx.cs" Line="10" Column="9" />
+      <File FileName="BicycleCMS/CategoryTwo.aspx" Line="12" Column="1" />
+      <File FileName="../../MasterAndSkin/Cartoon.aspx" Line="11" Column="1" NotebookId="1" />
+      <File FileName="../../MasterAndSkin/App_Themes/ThemeCartoon/SkinCartoon.skin" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BicycleCMS" expanded="True">
-            <Node name="BicycleCMS" expanded="True" selected="True">
-              <Node name="NormalBikes.aspx" expanded="True" />
+            <Node name="BicycleCMS" expanded="True">
+              <Node name="App_Themes" expanded="True" />
+              <Node name="CategoryOne.aspx" expanded="True" />
+              <Node name="CategoryTwo.aspx" selected="True" />
             </Node>
           </Node>
         </State>

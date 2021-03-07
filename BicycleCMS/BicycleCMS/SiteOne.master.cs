@@ -43,7 +43,17 @@ namespace BicycleCMS
                 var innerDL = e.Item.FindControl("leftNavItems") as DataList;
                 if (innerDL != null)
                 {
-                    string itemsSql = "SELECT Content_Title FROM " + Global.DB.DBprefix + "Content WHERE Category_ID = " + this.cats[0] + " ORDER BY Content_ID ASC";
+                    string itemsSql =   "SELECT " +
+                                        Global.DB.DBprefix + "Content.Content_Title, " +
+                                        Global.DB.DBprefix + "Content.Content_ID, " +
+                                        Global.DB.DBprefix + "ContentAttribute.CA_Attribute " +
+                                        "FROM " + Global.DB.DBprefix + "Content " +
+                                        "INNER JOIN " + Global.DB.DBprefix + "ContentAttribute " +
+                                        "ON " + Global.DB.DBprefix + "Content.Content_ID " +
+                                        "= " + Global.DB.DBprefix + "ContentAttribute.Content_ID " +
+                                        "WHERE " + Global.DB.DBprefix + "Content.Category_ID='" + this.cats[0] + "' " +
+                                        "AND " + Global.DB.DBprefix + "ContentAttribute.CA_Title='Theme' " +
+                                        "ORDER BY " + Global.DB.DBprefix + "Content.Content_ID ASC";
                     MySqlDataAdapter da2 = Global.DB.dbAdapt(itemsSql);
                     DataSet ds2 = new DataSet();
                     da2.Fill(ds2);

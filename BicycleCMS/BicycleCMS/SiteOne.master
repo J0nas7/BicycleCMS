@@ -30,7 +30,9 @@
                             
                         <asp:DataList ID="leftNavItems" runat="server">
                             <ItemTemplate>
-                                <asp:Label CssClass="Items" runat="server" Text='<%# Eval("Content_Title") %>'></asp:Label>
+                                <a runat="server" class="Items" href='<%# "~/" + Eval("CA_Attribute") + ".aspx?iid=" + Eval("Content_ID") %>'>
+                                    &raquo; <asp:Label runat="server" Text='<%# Eval("Content_Title") %>'></asp:Label>
+                                </a>
                             </ItemTemplate>
                         </asp:DataList>
                     </ItemTemplate>
