@@ -8,6 +8,7 @@
         
         
     <link href="~/Template.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
      <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -22,8 +23,22 @@
             </asp:Menu>
         </div>
         <div class="Leftnav">
+            <ul class="Items">
+                <asp:DataList ID="leftNavList" OnItemDataBound="Category_Bound" runat="server">
+                    <ItemTemplate>
+                        <asp:Label CssClass="Category" runat="server" Text='<%# Eval("Category_Title") %>'></asp:Label>
+                            
+                        <asp:DataList ID="leftNavItems" runat="server">
+                            <ItemTemplate>
+                                <asp:Label CssClass="Items" runat="server" Text='<%# Eval("Content_Title") %>'></asp:Label>
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </ItemTemplate>
+                </asp:DataList>
+            </ul>
         </div>
         <div class="Maincontent">
+            <asp:Label ID="testLabel" runat="server"></asp:Label>
             <asp:ContentPlaceHolder id="contentPlaceHolder" runat="server" />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

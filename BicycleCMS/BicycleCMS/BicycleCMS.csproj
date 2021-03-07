@@ -87,6 +87,7 @@
     <Content Include="SiteOne.master" />
     <Content Include="Template.css" />
     <Content Include="packages.config" />
+    <Content Include="NormalBikes.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -106,6 +107,12 @@
     </Compile>
     <Compile Include="DatabaseController.cs" />
     <Compile Include="DBpwd.cs" />
+    <Compile Include="NormalBikes.aspx.cs">
+      <DependentUpon>NormalBikes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NormalBikes.aspx.designer.cs">
+      <DependentUpon>NormalBikes.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Themes\" />

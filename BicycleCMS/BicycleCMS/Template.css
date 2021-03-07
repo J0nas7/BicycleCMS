@@ -49,6 +49,20 @@ div#ctl00_Topnav {
     background: #ddd;
 }
 
+.Leftnav ul {
+    margin: 10px;
+}
+
+.Leftnav ul .Category {
+    font-weight: bold;
+    margin: 5px 0;
+    display: block;
+}
+
+.Leftnav ul .Items {
+    margin-left: 20px;
+}
+
 .Maincontent {
     width: 85%;
     height: auto;

@@ -10,7 +10,7 @@ namespace BicycleCMS
         MySqlCommand query = null;
         MySqlDataReader rdr = null;
         string connError = "";
-        public string DBprefix = "CS4_";
+        public string DBprefix = "Cms_";
 
         private DatabaseController()
         {

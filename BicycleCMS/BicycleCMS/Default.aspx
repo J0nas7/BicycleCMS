@@ -3,5 +3,5 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Bicycle CMS Page</h1>
-    <p>Choose an item on the right side</p>
+    <p>Choose an item on the left side</p>
 </asp:Content>

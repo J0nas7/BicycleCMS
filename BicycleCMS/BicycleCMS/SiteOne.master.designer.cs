@@ -17,6 +17,12 @@ namespace BicycleCMS {
 		
 		protected System.Web.UI.WebControls.Menu Topnav;
 		
+		protected System.Web.UI.WebControls.DataList leftNavList;
+		
+		protected System.Web.UI.WebControls.DataList leftNavItems;
+		
+		protected System.Web.UI.WebControls.Label testLabel;
+		
 		protected System.Web.UI.WebControls.ContentPlaceHolder contentPlaceHolder;
 		
 		protected System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
